@@ -4,6 +4,5 @@ module.exports = {
     loader: "akamai",
     path: ""
   },
-  basePath: "/skd",
-  assetPrefix: "/skd"
+  basePath: "/skd"
 }
