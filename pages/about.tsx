@@ -87,10 +87,11 @@ const About: NextPage = () => {
           content="Hello, my name is Sangeeth Kumar. I love the design and I'm excited about new
           technologies. Whether you have a question or just want to say hi, I will try my best to get back to you!"
         />
+        {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
       <Header />
       <div className="mx-auto mt-[68px] max-w-[1040px] lg:mt-[88px] lg:p-0">
-        <Section>
+        <Section  overrideYPadding="py-5 lg:pt-24">
           <p className="mb-10 font-sans-cn text-2xl font-bold tracking-[0.12em] text-white">
             👋 Hello there !
           </p>
@@ -132,12 +133,12 @@ const About: NextPage = () => {
             </div>
           </div>
         </Section>
-        <Section >
+        <Section  overrideYPadding="py-5" >
           <div style={{overflow: 'auto'}}>            
             <Headline2>Experience</Headline2>
             <div className="float-left lg:w-[450px] w-full mb-8 lg:mb-0">
               <ExperienceAndResponsibility
-                companyName="Vacus Tech Pvt Ltd"
+                companyName="1) Vacus Tech Pvt Ltd"
                 time="Nov 2021-Present"
                 role="Industrial Designer"
                 information="Vacus Tech is a Wireless Indoor Positioning Company with patented technology for automated configurable fencing, 
@@ -148,7 +149,7 @@ const About: NextPage = () => {
             </div>
             <div  className="float-right lg:w-[450px] w-full mb-8 lg:mb-0">
               <ExperienceAndResponsibility
-                companyName="Byall"
+                companyName="2) Byall"
                 time="June 2021-Nov 2021"
                 role="UX UI Designer"
                 information="Byall enable individuals as independent resources to assist corporates with their sourcing of candidates. 
@@ -166,55 +167,7 @@ const About: NextPage = () => {
             </div>
           </div>          
         </Section>
-        {/* <Section>
-          <div className="lg:flex">
-            <div className="lg:w-1/2">
-              <Headline2>Education</Headline2>
-              <EducationInfo
-                school="Kyushu University"
-                degree="Master of Design"
-                period="April 2014 - March 2017"
-              />
-              <EducationInfo
-                school="Hubei University of Technology"
-                degree="Bachelor of Electronic Information Engineering"
-                period="September 2007 - August 2011"
-              />
-            </div>
-            <div className="lg:w-1/2">
-              <Headline2>Skills</Headline2>
-              <SkillInfo
-                title="Design"
-                skills={[
-                  "Figma",
-                  "XD",
-                  "Sketch",
-                  "InVision",
-                  "Illustrator",
-                  "Photoshop",
-                  "InDesign",
-                ]}
-              />
-              <SkillInfo
-                title="Development"
-                skills={[
-                  "HTML/CSS(SCSS)",
-                  "JavaScript",
-                  "TypeScript",
-                  "React",
-                  "NextJS",
-                  "Git",
-                  "WordPress",
-                ]}
-              />
-              <SkillInfo
-                title="Languages"
-                skills={["Chinese", "English", "Japanese"]}
-              />
-            </div>
-          </div>
-        </Section> */}
-        <Section>
+        <Section overrideYPadding="py-5">
           <div style={{overflow: 'auto'}}>
             <div className="skills w-full lg:w-[450px] float-left">
               <Headline2>Skills</Headline2>

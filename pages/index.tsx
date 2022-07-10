@@ -41,10 +41,10 @@ const Home: NextPage = () => {
             priority
           />
       </div>
-      <div className="text-center">
-        <Headline2>Recent Works</Headline2>
-      </div>
-      <div className="mt-[68px] space-y-5 p-5 lg:mt-[88px]">
+      <div className="mt-[68px] space-y-5 p-5 lg:mt-[650px]">
+        <div className="text-center">
+          <Headline2>Recent Works</Headline2>
+        </div>
         <Card
           title="Housea"
           media={houseaCoverImg}
