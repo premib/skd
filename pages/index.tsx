@@ -31,16 +31,15 @@ const Home: NextPage = () => {
       <h1 className="absolute m-[-1px] h-[1px] w-[1px] overflow-hidden p-0">
         Projects
       </h1>
-      <div className="h-[500px]">
-        <Image
-            src={wipCoverImg}
-            alt="hero image"
-            layout="responsive"
-            objectFit="cover"
-            priority
-          />
-      </div>
-      <div className="mt-[68px] space-y-5 p-5 lg:mt-[650px]">
+      
+      <Image
+        src={wipCoverImg}
+        alt="hero image"
+        layout="responsive"
+        objectFit="cover"
+        priority
+      />
+      <div className="mt-[68px] space-y-5 p-5 lg:mt-[100px]">
         <div className="text-center">
           <Headline2>Recent Works</Headline2>
         </div>
