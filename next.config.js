@@ -5,5 +5,5 @@ module.exports = {
     path: ""
   },
   basePath: "/skd",
-  assetPath: "/skd"
+  assetPrefix: "/skd"
 }
