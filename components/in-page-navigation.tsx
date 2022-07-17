@@ -11,7 +11,7 @@ interface InPageNavigationProps {
 
 const InPageNavigation: React.FC<InPageNavigationProps> = ({ steps }) => {
   return (
-    <div className="bg-[#1F2229] sticky top-[68px] z-10 overflow-scroll md:overflow-hidden drop-shadow-[0_1px_0px_rgba(0,0,0,0.12)] backdrop-blur-lg lg:top-[88px]">
+    <div className="sticky top-[68px] z-10 overflow-scroll bg-white bg-opacity-95 drop-shadow-[0_1px_0px_rgba(0,0,0,0.12)] backdrop-blur-lg lg:top-[88px]">
       <div className="mx-auto max-w-[1040px] overflow-auto">
         <div className="flex p-5">
           {steps.map((step, index) => {
@@ -25,7 +25,7 @@ const InPageNavigation: React.FC<InPageNavigationProps> = ({ steps }) => {
                           {index + 1}
                         </span>
                       </div>
-                      <p className="ml-3 mr-6 whitespace-nowrap text-sm font-bold leading-6 tracking-[0.01em] text-white hover:underline">
+                      <p className="ml-3 mr-6 whitespace-nowrap text-sm font-bold leading-6 tracking-[0.01em] text-slate-900 hover:underline">
                         {step.title}
                       </p>
                     </div>

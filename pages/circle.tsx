@@ -1,44 +1,44 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
-import Footer from "../../components/footer";
-import Header from "../../components/header";
-import InPageNavigation from "../../components/in-page-navigation";
-import Anchor from "../../components/anchor";
-import Section from "../../components/section";
+import Footer from "../components/footer";
+import Header from "../components/header";
+import InPageNavigation from "../components/in-page-navigation";
+import Anchor from "../components/anchor";
+import Section from "../components/section";
 
 // Typography
-import Headline1 from "../../components/headline-1";
-import Headline2 from "../../components/headline-2";
-import Headline3 from "../../components/headline-3";
-import Headline4 from "../../components/headline-4";
+import Headline1 from "../components/headline-1";
+import Headline2 from "../components/headline-2";
+import Headline3 from "../components/headline-3";
+import Headline4 from "../components/headline-4";
 
-import overViewImg from "../../public/images/circle-overview.png";
-import overViewSmallImg from "../../public/images/circle-overview-small.png";
-import personaImg1 from "../../public/images/circle-persona-1.png";
-import personaImg2 from "../../public/images/circle-persona-2.png";
-import ideationImg1 from "../../public/images/circle-ideation-1.jpg";
-import ideationImg2 from "../../public/images/circle-ideation-2.jpg";
-import ideationImg3 from "../../public/images/circle-ideation-3.jpg";
-import wireframesImg from "../../public/images/circle-wireframes.png";
-import fundationsImg from "../../public/images/circle-fundations.png";
-import prototypeImg from "../../public/images/circle-prototype.png";
+import overViewImg from "../public/images/circle-overview.png";
+import overViewSmallImg from "../public/images/circle-overview-small.png";
+import personaImg1 from "../public/images/circle-persona-1.png";
+import personaImg2 from "../public/images/circle-persona-2.png";
+import ideationImg1 from "../public/images/circle-ideation-1.jpg";
+import ideationImg2 from "../public/images/circle-ideation-2.jpg";
+import ideationImg3 from "../public/images/circle-ideation-3.jpg";
+import wireframesImg from "../public/images/circle-wireframes.png";
+import fundationsImg from "../public/images/circle-fundations.png";
+import prototypeImg from "../public/images/circle-prototype.png";
 
-import mockupImg1 from "../../public/images/circle-mockup-1.png";
-import mockupImg2 from "../../public/images/circle-mockup-2.png";
-import mockupImg3 from "../../public/images/circle-mockup-3.png";
-import mockupImg4 from "../../public/images/circle-mockup-4.png";
-import mockupImg5 from "../../public/images/circle-mockup-5.png";
-import mockupImg6 from "../../public/images/circle-mockup-6.png";
-import mockupImg7 from "../../public/images/circle-mockup-7.png";
-import mockupImg8 from "../../public/images/circle-mockup-8.png";
-import mockupImg9 from "../../public/images/circle-mockup-9.png";
-import mockupImg10 from "../../public/images/circle-mockup-10.png";
-import mockupImg11 from "../../public/images/circle-mockup-11.png";
-import mockupImg12 from "../../public/images/circle-mockup-12.png";
-import mockupImg13 from "../../public/images/circle-mockup-13.png";
-import mockupImg14 from "../../public/images/circle-mockup-14.png";
-import mockupImg15 from "../../public/images/circle-mockup-15.png";
+import mockupImg1 from "../public/images/circle-mockup-1.png";
+import mockupImg2 from "../public/images/circle-mockup-2.png";
+import mockupImg3 from "../public/images/circle-mockup-3.png";
+import mockupImg4 from "../public/images/circle-mockup-4.png";
+import mockupImg5 from "../public/images/circle-mockup-5.png";
+import mockupImg6 from "../public/images/circle-mockup-6.png";
+import mockupImg7 from "../public/images/circle-mockup-7.png";
+import mockupImg8 from "../public/images/circle-mockup-8.png";
+import mockupImg9 from "../public/images/circle-mockup-9.png";
+import mockupImg10 from "../public/images/circle-mockup-10.png";
+import mockupImg11 from "../public/images/circle-mockup-11.png";
+import mockupImg12 from "../public/images/circle-mockup-12.png";
+import mockupImg13 from "../public/images/circle-mockup-13.png";
+import mockupImg14 from "../public/images/circle-mockup-14.png";
+import mockupImg15 from "../public/images/circle-mockup-15.png";
 
 const mockupImgs = [
   mockupImg1,
@@ -77,10 +77,10 @@ const Circle: NextPage = () => {
       <div className="mx-auto mt-[68px] max-w-[1040px] lg:mt-[88px] lg:p-0">
         <div className="lg:hidden">
           <div className="px-5 py-12">
-            <h2 className="mb-2 text-[40px] font-black leading-[48px] tracking-[0.01em] text-white">
+            <h2 className="mb-2 text-[40px] font-black leading-[48px] tracking-[0.01em] text-slate-900">
               Circle
             </h2>
-            <p className="body-1 text-white">
+            <p className="body-1 text-slate-600">
               Design a tool to help international students share household
               items.
             </p>
@@ -126,12 +126,12 @@ const Circle: NextPage = () => {
       {/* ================================ */}
       {/* Project Overview */}
       {/* ================================ */}
-      <div className="bg-[#1F2229] px-5 py-24 lg:py-32">
+      <div className="bg-[#FAFAF9] px-5 py-24 lg:py-32">
         <div className="mx-auto max-w-[1040px]">
           <div className="text-center">
             <Headline2>Project overview</Headline2>
           </div>
-          <p className="body-1 mx-auto max-w-[760px] text-center text-white">
+          <p className="body-1 mx-auto max-w-[760px] text-center text-slate-600">
             When international students are ready to go back to their home
             countries or to work elsewhere, they need to handle a lot of
             household goods. They need a tool to help transfer these items to
@@ -143,11 +143,11 @@ const Circle: NextPage = () => {
           <div className="mt-16 space-y-10 lg:mt-20 lg:flex lg:items-start lg:space-y-0">
             <div className="mx-auto max-w-[260px]">
               <div className="text-center">
-                <p className="pb-2 text-xl font-extrabold leading-8 tracking-[0.01em] text-white">
+                <p className="pb-2 text-xl font-extrabold leading-8 tracking-[0.01em] text-slate-900">
                   Project name
                 </p>
               </div>
-              <p className="body-1 text-center text-white">
+              <p className="body-1 text-center text-slate-600">
                 Circle
                 <br />
                 iOS
@@ -155,11 +155,11 @@ const Circle: NextPage = () => {
             </div>
             <div className="mx-auto max-w-[260px]">
               <div className="text-center">
-                <p className="pb-2 text-xl font-extrabold leading-8 tracking-[0.01em] text-white">
+                <p className="pb-2 text-xl font-extrabold leading-8 tracking-[0.01em] text-slate-900">
                   Duration
                 </p>
               </div>
-              <p className="body-1 text-center text-white">
+              <p className="body-1 text-center text-slate-600">
                 2022.05 - 2022.06
                 <br />
                 (2 months)
@@ -167,19 +167,19 @@ const Circle: NextPage = () => {
             </div>
             <div className="mx-auto max-w-[260px]">
               <div className="text-center">
-                <p className="pb-2 text-xl font-extrabold leading-8 tracking-[0.01em] text-white">
+                <p className="pb-2 text-xl font-extrabold leading-8 tracking-[0.01em] text-slate-900">
                   Role
                 </p>
               </div>
-              <p className="body-1 text-center text-white">UX Designer</p>
+              <p className="body-1 text-center text-slate-600">UX Designer</p>
             </div>
             <div className="mx-auto max-w-[260px]">
               <div className="text-center">
-                <p className="pb-2 text-xl font-extrabold leading-8 tracking-[0.01em] text-white">
+                <p className="pb-2 text-xl font-extrabold leading-8 tracking-[0.01em] text-slate-900">
                   Responsibilities
                 </p>
               </div>
-              <p className="body-1 text-center text-white">
+              <p className="body-1 text-center text-slate-600">
                 User Research, wireframing, prototyping, usability studies
               </p>
             </div>
@@ -212,98 +212,96 @@ const Circle: NextPage = () => {
       {/* Section: Understanding the user */}
       {/* ================================ */}
       <Anchor id="Understanding-the-user" />
-      <div className="bg-[#1F2229]">
-        <Section>
-          <div className="space-y-20 lg:space-y-28">
+      <Section>
+        <div className="space-y-20 lg:space-y-28">
+          <div>
+            <div className="lg:text-center">
+              <Headline2>Understanding the user</Headline2>
+            </div>
             <div>
-              <div className="lg:text-center">
-                <Headline2>Understanding the user</Headline2>
-              </div>
-              <div>
-                <p className="body-1 text-white lg:mx-auto lg:max-w-[760px] lg:text-center">
-                  I conducted interviews to understand the users I am designing
-                  for and their needs. Most interview participants reported
-                  feeling badly about throwing away unused items that were still
-                  usable, but they didn’t actively try to transfer these items.
-                  The feedback received through research made it clear that users
-                  would be open and willing to share unused items to reduce waste,
-                  if they had access to an easy-to-use tool to help guide them.
-                </p>
-              </div>
+              <p className="body-1 text-slate-600 lg:mx-auto lg:max-w-[760px] lg:text-center">
+                I conducted interviews to understand the users I am designing
+                for and their needs. Most interview participants reported
+                feeling badly about throwing away unused items that were still
+                usable, but they didn’t actively try to transfer these items.
+                The feedback received through research made it clear that users
+                would be open and willing to share unused items to reduce waste,
+                if they had access to an easy-to-use tool to help guide them.
+              </p>
             </div>
-            {/* The problem and the goal */}
-            <div className="mx-auto flex max-w-[824px] flex-col gap-6 md:flex-row">
-              <div className="w-full">
-                <Headline4>The problem</Headline4>
-                <p className="body-1 text-white">
-                  International students share information about unused items
-                  mainly through group chats and forums. As a result, the
-                  information can only be spread in a small area. Most of these
-                  group chats do not have a fixed topic, and information about
-                  items can be quickly overwhelmed by others.
-                </p>
-              </div>
-              <div className="w-full">
-                <Headline4>The goal</Headline4>
-                <p className="body-1 text-white">
-                  Design an application to help transfer unused household items
-                  safely and smoothly between international students.
-                </p>
-              </div>
+          </div>
+          {/* The problem and the goal */}
+          <div className="mx-auto flex max-w-[824px] flex-col gap-6 md:flex-row">
+            <div className="w-full">
+              <Headline4>The problem</Headline4>
+              <p className="body-1 text-slate-600">
+                International students share information about unused items
+                mainly through group chats and forums. As a result, the
+                information can only be spread in a small area. Most of these
+                group chats do not have a fixed topic, and information about
+                items can be quickly overwhelmed by others.
+              </p>
             </div>
+            <div className="w-full">
+              <Headline4>The goal</Headline4>
+              <p className="body-1 text-slate-600">
+                Design an application to help transfer unused household items
+                safely and smoothly between international students.
+              </p>
+            </div>
+          </div>
 
-            {/* Persona */}
-            <div>
-              <div className="lg:text-center">
-                <Headline3>Persona</Headline3>
+          {/* Persona */}
+          <div>
+            <div className="lg:text-center">
+              <Headline3>Persona</Headline3>
+            </div>
+            <div className="mx-auto flex max-w-[824px] flex-col gap-6 md:flex-row">
+              <div className="relative w-full overflow-hidden">
+                <Image
+                  src={personaImg1}
+                  alt="Zhang's persona"
+                  layout="responsive"
+                  objectFit="cover"
+                />
               </div>
-              <div className="mx-auto flex max-w-[824px] flex-col gap-6 md:flex-row">
-                <div className="relative w-full overflow-hidden">
-                  <Image
-                    src={personaImg1}
-                    alt="Zhang's persona"
-                    layout="responsive"
-                    objectFit="cover"
-                  />
-                </div>
-                <div className="relative w-full overflow-hidden">
-                  <Image
-                    src={personaImg2}
-                    alt="Qian's persona"
-                    layout="responsive"
-                    objectFit="cover"
-                  />
-                </div>
+              <div className="relative w-full overflow-hidden">
+                <Image
+                  src={personaImg2}
+                  alt="Qian's persona"
+                  layout="responsive"
+                  objectFit="cover"
+                />
               </div>
-              <div className="mx-auto flex max-w-[824px] flex-col md:flex-row md:gap-6">
-                <div className="mt-8 w-full">
-                  <Headline4>Problem statement</Headline4>
-                  <p className="body-1 text-white">
-                    Zhang is an international student who needs a tool to transfer
-                    unused furniture and household items because it feels wasteful
-                    to dispose of these usable items as garbage.{" "}
-                  </p>
-                </div>
-                <div className="mt-8 w-full">
-                  <Headline4>Problem statement</Headline4>
-                  <p className="body-1 text-white">
-                    Qian is a fresh graduate student in the Department of
-                    Environment. She needs to buy some necessities and furniture
-                    because she is moving out of the student residence and renting
-                    her apartment.
-                  </p>
-                </div>
+            </div>
+            <div className="mx-auto flex max-w-[824px] flex-col md:flex-row md:gap-6">
+              <div className="mt-8 w-full">
+                <Headline4>Problem statement</Headline4>
+                <p className="body-1 text-slate-600">
+                  Zhang is an international student who needs a tool to transfer
+                  unused furniture and household items because it feels wasteful
+                  to dispose of these usable items as garbage.{" "}
+                </p>
+              </div>
+              <div className="mt-8 w-full">
+                <Headline4>Problem statement</Headline4>
+                <p className="body-1 text-slate-600">
+                  Qian is a fresh graduate student in the Department of
+                  Environment. She needs to buy some necessities and furniture
+                  because she is moving out of the student residence and renting
+                  her apartment.
+                </p>
               </div>
             </div>
           </div>
-        </Section>
-      </div>
+        </div>
+      </Section>
 
       {/* ================================ */}
       {/* Section: Starting the design */}
       {/* ================================ */}
       <Anchor id="Starting-the-design" />
-      <section className="py-12 lg:py-24 bg-[#1F2229]">
+      <section className="py-12 lg:py-24">
         <div className="mx-auto max-w-[1040px] px-5">
           <div className="space-y-20 lg:space-y-28">
             <div>
@@ -317,7 +315,7 @@ const Circle: NextPage = () => {
           <div className="mt-20 flex flex-col items-center gap-6 md:mt-28 md:flex-row">
             <div className="w-full">
               <Headline3>Ideation</Headline3>
-              <p className="body-1 mb-4 text-white lg:max-w-[400px]">
+              <p className="body-1 mb-4 text-slate-600 lg:max-w-[400px]">
                 I did a quick ideation exercise (Crazy 8) to come up with ideas
                 for how to address gaps identified in the competitive services.
                 I drafted some paper wireframes about the main flow of the app,
@@ -360,7 +358,7 @@ const Circle: NextPage = () => {
             </div>
           </div>
           <div className="mt-4 lg:mx-auto lg:max-w-[400px]">
-            <p className="body-2 text-center text-white">
+            <p className="body-2 text-center text-slate-600">
               Stars were used to mark the elements of each sketch that would be
               used in the initial digital wireframes.
             </p>
@@ -370,7 +368,7 @@ const Circle: NextPage = () => {
           <div className="mt-28 flex flex-col items-center gap-6 md:flex-row">
             <div className="w-full">
               <Headline3>Digital wireframes</Headline3>
-              <p className="body-1 mb-4 text-white lg:max-w-[400px]">
+              <p className="body-1 mb-4 text-slate-600 lg:max-w-[400px]">
                 Using the completed set of digital wireframes, I also created a
                 low-fidelity prototype. So the prototype could be used in a
                 usability study.
@@ -392,35 +390,35 @@ const Circle: NextPage = () => {
             <div className="lg:text-center">
               <Headline3>Usability study</Headline3>
             </div>
-            <p className="body-1 text-white lg:mx-auto lg:max-w-[760px] lg:text-center">
+            <p className="body-1 text-slate-600 lg:mx-auto lg:max-w-[760px] lg:text-center">
               I conducted two rounds of usability studies. Findings from the
               first study helped guide the designs from wireframes to mockups.
               The second study used a high-fidelity prototype and revealed what
               aspects of the mockups needed refining.
             </p>
             <div className="mt-8 space-y-4 lg:flex lg:justify-center lg:space-y-0 lg:space-x-4">
-              <div className="w-full rounded-lg border border-slate-300 bg-[#2E323B] p-4">
+              <div className="w-full rounded-lg border border-slate-300 bg-[#fafaf9] p-4">
                 <div className="lg:text-center">
                   <Headline4>Profile Info</Headline4>
                 </div>
-                <p className="body-1 text-white lg:text-center">
+                <p className="body-1 text-slate-600 lg:text-center">
                   People want to access the seller&apos;s profile before they
                   send a request
                 </p>
               </div>
-              <div className="w-full rounded-lg border border-slate-300 bg-[#2E323B] p-4">
+              <div className="w-full rounded-lg border border-slate-300 bg-[#fafaf9] p-4">
                 <div className="lg:text-center">
                   <Headline4>Tracking the status</Headline4>
                 </div>
-                <p className="body-1 text-white lg:text-center">
+                <p className="body-1 text-slate-600 lg:text-center">
                   People have difficulty tracking the status of a transaction
                 </p>
               </div>
-              <div className="w-full rounded-lg border border-slate-300 bg-[#2E323B] p-4">
+              <div className="w-full rounded-lg border border-slate-300 bg-[#fafaf9] p-4">
                 <div className="lg:text-center">
                   <Headline4>Clear indication</Headline4>
                 </div>
-                <p className="body-1 text-white lg:text-center">
+                <p className="body-1 text-slate-600 lg:text-center">
                   People prefer a clear indication of when a request has been
                   accepted
                 </p>
@@ -432,7 +430,7 @@ const Circle: NextPage = () => {
 
       {/* --- Refining the design ---  */}
       <Anchor id="Refining-the-design" />
-      <section className="bg-[#1F2229] py-12 px-5 lg:py-24 lg:px-0">
+      <section className="py-12 px-5 lg:py-24 lg:px-0">
         <div className="mx-auto max-w-[1200px]">
           <div className="space-y-20 lg:space-y-28">
             <div>
@@ -483,12 +481,12 @@ const Circle: NextPage = () => {
         </div>
       </section>
 
-      <section className="bg-[#1F2229] py-12 lg:py-24">
+      <section className="bg-[#FAFAF9] py-12 lg:py-24">
         <div className="mx-auto max-w-[1040px] px-5 lg:px-0">
           <div className="lg:flex lg:items-center lg:justify-between">
             <div className="lg:max-w-[400px]">
               <Headline3>Prototype</Headline3>
-              <p className="body-1 mb-4 text-white">
+              <p className="body-1 mb-4 text-slate-600">
                 I created mockups in Figma and then converted them to a
                 high-fidelity prototype.
               </p>
@@ -540,7 +538,7 @@ const Circle: NextPage = () => {
 
       {/* --- Going forward ---  */}
       <Anchor id="Going-forward" />
-      <section className="bg-[#1F2229] py-12 px-5 lg:py-24 lg:px-0">
+      <section className="py-12 px-5 lg:py-24 lg:px-0">
         <div className="space-y-20 lg:space-y-28">
           <div className="lg:text-center">
             <Headline2>Going forward</Headline2>
@@ -552,7 +550,7 @@ const Circle: NextPage = () => {
             <div className="space-y-4">
               <div className="lg:mx-auto lg:max-w-[760px]">
                 <Headline4>Focusing on specific user needs</Headline4>
-                <p className="body-1 mb-4 text-white">
+                <p className="body-1 mb-4 text-slate-600">
                   I learned that while I limited my target users to a certain
                   range, focusing on specific user needs and through each step
                   of the design process helped me come up with solutions that
@@ -561,7 +559,7 @@ const Circle: NextPage = () => {
               </div>
               <div className="lg:mx-auto lg:max-w-[760px]">
                 <Headline4>Choose the right font</Headline4>
-                <p className="body-1 mb-4 text-white">
+                <p className="body-1 mb-4 text-slate-600">
                   For this design, I chose the iOS system font SF. By learning
                   how to use this font, I learned that there are two categories
                   of SF fonts, Text and Display. The correct use of them can
@@ -576,7 +574,7 @@ const Circle: NextPage = () => {
             </div>
             <div className="space-y-4">
               <div className="lg:mx-auto lg:max-w-[760px]">
-                <p className="body-1 mb-4 text-white">
+                <p className="body-1 mb-4 text-slate-600">
                   Provide incentives and rewards for users who successfully
                   share items. Optimize the designs to fit specific user needs
                   of each device and screen size.
@@ -587,6 +585,7 @@ const Circle: NextPage = () => {
         </div>
       </section>
 
+      <Footer />
     </div>
   );
 };

@@ -20,46 +20,9 @@ const Card: React.FC<CardProps> = ({
   mediaSmall,
   priority,
 }) => {
-  const id: string = "11"
-
-  // const loadVanillaTilt = (): void => {
-  //   setTimeout(() => {
-  //     if ($(`[data-card]`).length < 1)
-  //        return;
-
-  //     VanillaTilt.init($(`[data-card]`), {
-  //       max: 8,
-  //       speed: 600
-  //     });
-  //     console.log('hello', $(`[data-card]`))
-  //     var originalBGplaypen = $(`[data-card]`).css("background-color"),
-  //       x, y, xy, bgWebKit, bgMoz,
-  //       lightColor = "rgba(255,255,255,0.35)",
-  //       gradientSize = 400;
-  
-  //     // Basic Demo
-  //     $('[data-card]').mousemove(function (event: any) {
-  //       let target: any = event.target
-  
-  //       x = event.pageX - target.offsetLeft;
-  //       y = event.pageY - target.offsetTop;
-  //       xy = x + " " + y;
-  
-  //       bgWebKit = "-webkit-gradient(radial, " + xy + ", 0, " + xy + ", " + gradientSize + ", from(" + lightColor + "), to(rgba(255,255,255,0.0))), " + originalBGplaypen;
-  //       bgMoz = "-moz-radial-gradient(" + x + "px " + y + "px 60deg, circle, " + lightColor + " 0%, " + originalBGplaypen + " " + gradientSize + "px)";
-  
-  //       $(target)
-  //         .css({ background: bgWebKit })
-  //         .css({ background: bgMoz });
-  
-  //     }).mouseleave((event: any) => {
-  //       $(event.target).css({ background: originalBGplaypen });
-  //     });
-  //   })
-  // }
   return (
     <div>
-      <div data-card={id} className="relative h-[calc(66vh)] lg:max-h-[800px]">
+      <div className="relative h-[calc(66vh)] lg:max-h-[800px]">
         <div className="relative block h-full lg:hidden">
           <Image
             src={mediaSmall}

@@ -9,10 +9,4 @@
   @apply text-sm font-normal leading-6 tracking-[0.01em];
 }
 
-@layer base {
-  ul, ol {
-    list-style: revert;
-  }
-}
-
 @tailwind utilities;

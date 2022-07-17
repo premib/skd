@@ -78,7 +78,7 @@ const About: NextPage = () => {
   ]
 
   return (
-    <div className="bg-[#1F2229]">
+    <>
       <Head>
         <title>About | Sangeeth Kumar</title>
         <meta charSet="utf-8" />
@@ -87,23 +87,22 @@ const About: NextPage = () => {
           content="Hello, my name is Sangeeth Kumar. I love the design and I'm excited about new
           technologies. Whether you have a question or just want to say hi, I will try my best to get back to you!"
         />
-        {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
       <Header />
       <div className="mx-auto mt-[68px] max-w-[1040px] lg:mt-[88px] lg:p-0">
-        <Section  overrideYPadding="py-5 lg:pt-24">
-          <p className="mb-10 font-sans-cn text-2xl font-bold tracking-[0.12em] text-white">
+        <Section>
+          <p className="mb-10 font-sans-cn text-2xl font-bold tracking-[0.12em] text-slate-900">
             👋 Hello there !
           </p>
           <div className="lg:flex lg:items-start lg:justify-between">
             <div className="w-full lg:max-w-[552px]">
               <div className="mb-6">
-                <h1 className="pb-2 text-xl font-extrabold leading-8 tracking-[0.01em] text-white">
+                <h1 className="pb-2 text-xl font-extrabold leading-8 tracking-[0.01em] text-slate-900">
                   My name is Sangeeth Kumar.
                 </h1>
               </div>
               <div className="mb-6">
-                <p className="body-1 text-white">
+                <p className="body-1 text-slate-600">
                   A product designer who has a great enthusiasm for designing digital products that make things better & touches someone&apos;s life. 
                   <br />
                   <br />
@@ -190,7 +189,8 @@ const About: NextPage = () => {
           </div>
         </Section>
       </div>
-    </div>
+      <Footer />
+    </>
   );
 };
 

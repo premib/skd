@@ -7,13 +7,13 @@ import Footer from "../components/footer";
 import Header from "../components/header";
 import caffyCoverImg from "../public/images/caffy-cover.jpg";
 import caffyCoverImgSmall from "../public/images/caffy-cover-small.jpg";
-// import wipCoverImg from "../public/images/wip-cover.jpg";
+import wipCoverImg from "../public/images/wip-cover2.jpg";
 // import wipCoverImgSmall from "../public/images/wip-cover-small.jpg";
 import houseaCoverImg from "../public/images/housea-cover.jpg";
 import houseaCoverImgSmall from "../public/images/housea-cover-small.jpg";
 import circleCoverImg from "../public/images/circle-cover.png";
 import circleCoverImgSmall from "../public/images/circle-cover-small.png";
-import homeHero from "../public/images/main-hero.png"
+// import homeHero from "../public/images/main-hero.png"
 import Headline2 from "../components/headline-2";
 
 const Home: NextPage = () => {
@@ -28,13 +28,12 @@ const Home: NextPage = () => {
         />
       </Head>
       <Header />
-      <div className="bg-[#1F2229]">
       <h1 className="absolute m-[-1px] h-[1px] w-[1px] overflow-hidden p-0">
         Projects
       </h1>
       <div className="h-[500px]">
         <Image
-            src={homeHero}
+            src={wipCoverImg}
             alt="hero image"
             layout="responsive"
             objectFit="cover"
@@ -50,7 +49,7 @@ const Home: NextPage = () => {
           media={houseaCoverImg}
           mediaSmall={houseaCoverImgSmall}
           description="Design a website for finding rental apartments"
-          link="/projects/housea"
+          link="/housea"
           priority={true}
           darkText={true}
         />
@@ -60,7 +59,7 @@ const Home: NextPage = () => {
           mediaSmall={circleCoverImgSmall}
           description="Design a tool to help international students share household
           items"
-          link="/projects/circle"
+          link="/circle"
           priority={true}
         />
         <Card
@@ -68,7 +67,7 @@ const Home: NextPage = () => {
           media={caffyCoverImg}
           mediaSmall={caffyCoverImgSmall}
           description="Design a mobile web app for a cafe"
-          link="/projects/caffy"
+          link="/caffy"
           priority={false}
         />
         {/* Work in process */}
@@ -100,7 +99,7 @@ const Home: NextPage = () => {
           </div>
         </div> */}
       </div>
-      </div>
+      <Footer />
     </>
   );
 };

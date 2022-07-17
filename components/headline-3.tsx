@@ -4,7 +4,7 @@ interface Headline3Props {
 
 const Headline3: React.FC<Headline3Props> = ({ children }) => {
   return (
-    <h3 className="pb-6 text-[28px] font-black leading-8 text-white">
+    <h3 className="pb-6 text-[28px] font-black leading-8 text-slate-900">
       {children}
     </h3>
   );

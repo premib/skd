@@ -14,17 +14,17 @@ const MenuButton: React.FC<MenuButtonProps> = ({
   return (
     <button
       onClick={handleOnClick}
-      className="relative flex h-10 w-10 items-center justify-center rounded-lg border border-solid border-[#FFFFFF] hover:border-[#2563EB] transition hover:bg-[#2E323B] group"
+      className="relative flex h-10 w-10 items-center justify-center rounded-lg border border-solid border-gray-300 transition hover:bg-gray-100"
       aria-label="Toggle menu"
     >
       <div>
         <span
-          className={`absolute left-[calc(50%-10px)] block h-[2px] w-5 transform  rounded-full bg-white group-hover:bg-[#2563EB] transition ${
+          className={`absolute left-[calc(50%-10px)] block h-[2px] w-5 transform  rounded-full bg-blue-600 transition ${
             menuIsOpen ? "top-[calc(50%-1px)] rotate-45" : "top-3"
           }`}
         ></span>
         <span
-          className={`absolute left-[calc(50%-10px)] block h-[2px] w-5 transform  rounded-full bg-white group-hover:bg-[#2563EB] transition ${
+          className={`absolute left-[calc(50%-10px)] block h-[2px] w-5 transform  rounded-full bg-blue-600 transition ${
             menuIsOpen ? "top-[calc(50%-1px)] -rotate-45" : "bottom-3"
           }`}
         ></span>

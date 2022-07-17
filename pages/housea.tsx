@@ -1,61 +1,61 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
-import Header from "../../components/header";
-import Footer from "../../components/footer";
-import InPageNavigation from "../../components/in-page-navigation";
-import Headline2 from "../../components/headline-2";
-import Headline3 from "../../components/headline-3";
-import Headline4 from "../../components/headline-4";
-import Anchor from "../../components/anchor";
+import Header from "../components/header";
+import Footer from "../components/footer";
+import InPageNavigation from "../components/in-page-navigation";
+import Headline2 from "../components/headline-2";
+import Headline3 from "../components/headline-3";
+import Headline4 from "../components/headline-4";
+import Anchor from "../components/anchor";
 
 // Images used in this page
-import overviewImage from "../../public/images/housea-overview.png";
-import overviewSmallImage from "../../public/images/housea-overview-s.jpg";
-import emap1 from "../../public/images/housea-emap-1.png";
-import emap2 from "../../public/images/housea-emap-2.png";
-import persona1 from "../../public/images/housea-persona-1.png";
-import persona2 from "../../public/images/housea-persona-2.png";
-import userJourneyMap from "../../public/images/housea-ujmap.png";
-import sitemapImage from "../../public/images/housea-sitemap.png";
-import wireframeImage from "../../public/images/housea-wireframes.png";
-import lowfiPrototypeImage from "../../public/images/housea-lowfi-prototype.png";
-import mockupsTypographyImage from "../../public/images/housea-mockups-typography.png";
-import mockupsColorsImage from "../../public/images/housea-mockups-colors.png";
-import prototypeImage from "../../public/images/housea-figma-prototype.jpg";
+import overviewImage from "../public/images/housea-overview.png";
+import overviewSmallImage from "../public/images/housea-overview-s.jpg";
+import emap1 from "../public/images/housea-emap-1.png";
+import emap2 from "../public/images/housea-emap-2.png";
+import persona1 from "../public/images/housea-persona-1.png";
+import persona2 from "../public/images/housea-persona-2.png";
+import userJourneyMap from "../public/images/housea-ujmap.png";
+import sitemapImage from "../public/images/housea-sitemap.png";
+import wireframeImage from "../public/images/housea-wireframes.png";
+import lowfiPrototypeImage from "../public/images/housea-lowfi-prototype.png";
+import mockupsTypographyImage from "../public/images/housea-mockups-typography.png";
+import mockupsColorsImage from "../public/images/housea-mockups-colors.png";
+import prototypeImage from "../public/images/housea-figma-prototype.jpg";
 
 // Mockups - large screens
-import mockupsImg1 from "../../public/images/housea-mockups-1.jpg";
-import mockupsImg2 from "../../public/images/housea-mockups-2.jpg";
-import mockupsImg3 from "../../public/images/housea-mockups-3.jpg";
-import mockupsImg4 from "../../public/images/housea-mockups-4.jpg";
-import mockupsImg5 from "../../public/images/housea-mockups-5.jpg";
-import mockupsImg6 from "../../public/images/housea-mockups-6.jpg";
-import mockupsImg7 from "../../public/images/housea-mockups-7.jpg";
-import mockupsImg8 from "../../public/images/housea-mockups-8.jpg";
-import mockupsImg9 from "../../public/images/housea-mockups-9.jpg";
-import mockupsImg10 from "../../public/images/housea-mockups-10.jpg";
-import mockupsImg11 from "../../public/images/housea-mockups-11.jpg";
+import mockupsImg1 from "../public/images/housea-mockups-1.jpg";
+import mockupsImg2 from "../public/images/housea-mockups-2.jpg";
+import mockupsImg3 from "../public/images/housea-mockups-3.jpg";
+import mockupsImg4 from "../public/images/housea-mockups-4.jpg";
+import mockupsImg5 from "../public/images/housea-mockups-5.jpg";
+import mockupsImg6 from "../public/images/housea-mockups-6.jpg";
+import mockupsImg7 from "../public/images/housea-mockups-7.jpg";
+import mockupsImg8 from "../public/images/housea-mockups-8.jpg";
+import mockupsImg9 from "../public/images/housea-mockups-9.jpg";
+import mockupsImg10 from "../public/images/housea-mockups-10.jpg";
+import mockupsImg11 from "../public/images/housea-mockups-11.jpg";
 
 // Mockups - small screens
-import mockupsImgS1 from "../../public/images/housea-mockups-s-1.jpg";
-import mockupsImgS2 from "../../public/images/housea-mockups-s-2.jpg";
-import mockupsImgS3 from "../../public/images/housea-mockups-s-3.jpg";
-import mockupsImgS4 from "../../public/images/housea-mockups-s-4.jpg";
-import mockupsImgS5 from "../../public/images/housea-mockups-s-5.jpg";
-import mockupsImgS6 from "../../public/images/housea-mockups-s-6.jpg";
-import mockupsImgS7 from "../../public/images/housea-mockups-s-7.jpg";
-import mockupsImgS8 from "../../public/images/housea-mockups-s-8.jpg";
-import mockupsImgS9 from "../../public/images/housea-mockups-s-9.jpg";
-import mockupsImgS10 from "../../public/images/housea-mockups-s-10.jpg";
-import mockupsImgS11 from "../../public/images/housea-mockups-s-11.jpg";
-import mockupsImgS12 from "../../public/images/housea-mockups-s-12.jpg";
-import mockupsImgS13 from "../../public/images/housea-mockups-s-13.jpg";
-import mockupsImgS14 from "../../public/images/housea-mockups-s-14.jpg";
-import mockupsImgS15 from "../../public/images/housea-mockups-s-15.jpg";
-import mockupsImgS16 from "../../public/images/housea-mockups-s-16.jpg";
-import mockupsImgS17 from "../../public/images/housea-mockups-s-17.jpg";
-import mockupsImgS18 from "../../public/images/housea-mockups-s-18.jpg";
+import mockupsImgS1 from "../public/images/housea-mockups-s-1.jpg";
+import mockupsImgS2 from "../public/images/housea-mockups-s-2.jpg";
+import mockupsImgS3 from "../public/images/housea-mockups-s-3.jpg";
+import mockupsImgS4 from "../public/images/housea-mockups-s-4.jpg";
+import mockupsImgS5 from "../public/images/housea-mockups-s-5.jpg";
+import mockupsImgS6 from "../public/images/housea-mockups-s-6.jpg";
+import mockupsImgS7 from "../public/images/housea-mockups-s-7.jpg";
+import mockupsImgS8 from "../public/images/housea-mockups-s-8.jpg";
+import mockupsImgS9 from "../public/images/housea-mockups-s-9.jpg";
+import mockupsImgS10 from "../public/images/housea-mockups-s-10.jpg";
+import mockupsImgS11 from "../public/images/housea-mockups-s-11.jpg";
+import mockupsImgS12 from "../public/images/housea-mockups-s-12.jpg";
+import mockupsImgS13 from "../public/images/housea-mockups-s-13.jpg";
+import mockupsImgS14 from "../public/images/housea-mockups-s-14.jpg";
+import mockupsImgS15 from "../public/images/housea-mockups-s-15.jpg";
+import mockupsImgS16 from "../public/images/housea-mockups-s-16.jpg";
+import mockupsImgS17 from "../public/images/housea-mockups-s-17.jpg";
+import mockupsImgS18 from "../public/images/housea-mockups-s-18.jpg";
 
 const mockupsSmallImgs = [
   mockupsImgS1,
@@ -80,7 +80,7 @@ const mockupsSmallImgs = [
 
 const Housea: NextPage = () => {
   return (
-    <div className="bg-[#1F2229]">
+    <div>
       <Head>
         <title>Housea | Sangeeth Kumar</title>
         <meta charSet="utf-8" />
@@ -90,13 +90,13 @@ const Housea: NextPage = () => {
         />
       </Head>
       <Header />
-      <div  className="mx-auto mt-[68px] max-w-[1040px] lg:mt-[88px] lg:p-0">
+      <div className="mx-auto mt-[68px] max-w-[1040px] lg:mt-[88px] lg:p-0">
         <div className="lg:hidden">
           <div className="px-5 py-12">
-            <h2 className="mb-2 text-[40px] font-black leading-[48px] tracking-[0.01em] text-white">
+            <h2 className="mb-2 text-[40px] font-black leading-[48px] tracking-[0.01em] text-slate-900">
               Housea
             </h2>
-            <p className="body-1 text-white">
+            <p className="body-1 text-slate-600">
               Design a website for finding rental apartments
             </p>
           </div>
@@ -115,10 +115,10 @@ const Housea: NextPage = () => {
       <div className="mt-[68px] hidden lg:mt-[88px] lg:block lg:p-0">
         <div className="relative bg-[url('/images/housea-overview-bg.png')]">
           <h1 className="mx-auto max-w-[1040px] pt-20 pb-4">
-            <span className="block text-[28px] font-black leading-8 text-white">
+            <span className="block text-[28px] font-black leading-8 text-slate-900">
               Housea
             </span>
-            <span className="body-1 block text-white">
+            <span className="body-1 block text-slate-900">
               Design a website for finding rental apartments
             </span>
           </h1>
@@ -134,12 +134,12 @@ const Housea: NextPage = () => {
         </div>
       </div>
       {/* --- Project Overview --- */}
-      <div className="px-5 py-24 lg:py-32">
+      <div className="bg-[#FAFAF9] px-5 py-24 lg:py-32">
         <div className="mx-auto max-w-[1040px]">
           <div className="text-center">
             <Headline2>Project overview</Headline2>
           </div>
-          <p className="body-1 mx-auto max-w-[760px] text-center text-white">
+          <p className="body-1 mx-auto max-w-[760px] text-center text-slate-600">
             Nammabus is an app for finding the Local timings and live tracking of buses in Madurai City. 
             Nammabus’s goal is to provide a friendly and easy-to-use for tourists and for locals in Madurai. 
             Nammabus serves as a platform for searching Bus timings and provides users with information on Bus routes and 
@@ -149,41 +149,43 @@ const Housea: NextPage = () => {
           <div className="mt-16 space-y-10 lg:mt-20 lg:flex lg:items-start lg:space-y-0">
             <div className="mx-auto max-w-[260px]">
               <div className="text-center">
-                <p className="pb-2 text-xl font-extrabold leading-8 tracking-[0.01em] text-white">
+                <p className="pb-2 text-xl font-extrabold leading-8 tracking-[0.01em] text-slate-900">
                   Project name
                 </p>
               </div>
-              <p className="body-1 text-center text-white">
+              <p className="body-1 text-center text-slate-600">
                 Nammabus
+                <br />
+                (Web)
               </p>
             </div>
             <div className="mx-auto max-w-[260px]">
               <div className="text-center">
-                <p className="pb-2 text-xl font-extrabold leading-8 tracking-[0.01em] text-white">
+                <p className="pb-2 text-xl font-extrabold leading-8 tracking-[0.01em] text-slate-900">
                   Duration
                 </p>
               </div>
-              <p className="body-1 text-center text-white">
+              <p className="body-1 text-center text-slate-600">
                 10.2021-01.2022
                 <br />
-                (3 Months)
+                (3 months)
               </p>
             </div>
             <div className="mx-auto max-w-[260px]">
               <div className="text-center">
-                <p className="pb-2 text-xl font-extrabold leading-8 tracking-[0.01em] text-white">
+                <p className="pb-2 text-xl font-extrabold leading-8 tracking-[0.01em] text-slate-900">
                   Role
                 </p>
               </div>
-              <p className="body-1 text-center text-white">UX Designer</p>
+              <p className="body-1 text-center text-slate-600">UX Designer</p>
             </div>
             <div className="mx-auto max-w-[260px]">
               <div className="text-center">
-                <p className="pb-2 text-xl font-extrabold leading-8 tracking-[0.01em] text-white">
+                <p className="pb-2 text-xl font-extrabold leading-8 tracking-[0.01em] text-slate-900">
                   Responsibilities
                 </p>
               </div>
-              <p className="body-1 text-center text-white">
+              <p className="body-1 text-center text-slate-600">
                 User Research, wireframing, prototyping, usability studies
               </p>
             </div>
@@ -223,13 +225,13 @@ const Housea: NextPage = () => {
                 <Headline2>Understanding the user</Headline2>
               </div>
               <div>
-                <p className="body-1 text-white lg:mx-auto lg:max-w-[760px] lg:text-center">
+                <p className="body-1 text-slate-600 lg:mx-auto lg:max-w-[760px] lg:text-center">
                   I conducted interviews to understand the users I am designing
                   for and their needs. Two of the main groups identified were
                   international students and foreign national staff.
                 </p>
                 <br />
-                <p className="body-1 text-white lg:mx-auto lg:max-w-[760px] lg:text-center">
+                <p className="body-1 text-slate-600 lg:mx-auto lg:max-w-[760px] lg:text-center">
                   The study found that language and unfamiliarity with the
                   rental process were problems that many people had faced when
                   renting an apartment. Not being able to communicate fluently
@@ -240,7 +242,7 @@ const Housea: NextPage = () => {
                   when renting an apartment.
                 </p>
                 <br />
-                <p className="body-1 text-white lg:mx-auto lg:max-w-[760px] lg:text-center">
+                <p className="body-1 text-slate-600 lg:mx-auto lg:max-w-[760px] lg:text-center">
                   In addition, some users mentioned in the interview that they
                   could not see the apartments on-site because they were in a
                   different location. They were worried about the actual
@@ -256,27 +258,27 @@ const Housea: NextPage = () => {
                 <Headline3>Pain points</Headline3>
               </div>
               <div className="space-y-4 lg:flex lg:justify-center lg:space-y-0 lg:space-x-4">
-                <div className="max-w-md rounded-lg border border-slate-300 bg-[#2E323B] p-4">
+                <div className="max-w-md rounded-lg border border-slate-300 bg-[#fafaf9] p-4">
                   <div className="lg:text-center">
                     <Headline4>Language</Headline4>
                   </div>
-                  <p className="body-1 text-white lg:text-center">
+                  <p className="body-1 text-slate-600 lg:text-center">
                     Unable to communicate fluently with operators in Tamil to express their needs.
                   </p>
                 </div>
-                <div className="max-w-md rounded-lg border border-slate-300 bg-[#2E323B] p-4">
+                <div className="max-w-md rounded-lg border border-slate-300 bg-[#fafaf9] p-4">
                   <div className="lg:text-center">
                     <Headline4>Timings</Headline4>
                   </div>
-                  <p className="body-1 text-white lg:text-center">
+                  <p className="body-1 text-slate-600 lg:text-center">
                     Difficult to get information about bus timings from the locals
                   </p>
                 </div>
-                <div className="max-w-md rounded-lg border border-slate-300 bg-[#2E323B] p-4">
+                <div className="max-w-md rounded-lg border border-slate-300 bg-[#fafaf9] p-4">
                   <div className="lg:text-center">
                     <Headline4>Routes</Headline4>
                   </div>
-                  <p className="body-1 text-white lg:text-center">
+                  <p className="body-1 text-slate-600 lg:text-center">
                     Bus routes sometimes can be complex for both locals and tourists 
                   </p>
                 </div>
@@ -291,10 +293,9 @@ const Housea: NextPage = () => {
             <div className="lg:text-center">
               <Headline3>User persona</Headline3>
             </div>
-            <p className="body-1 text-white lg:mx-auto lg:max-w-[760px] lg:text-center">
-              Based on the insights of the user interviews, 
-              I created two empathy maps. 
-              Using the empathy maps, I made two user personas.
+            <p className="body-1 text-slate-600 lg:mx-auto lg:max-w-[760px] lg:text-center">
+              Based on the insights of the user interviews, I created two
+              empathy maps. Using the empathy maps, I made two user personas.
               One is a student, and one is a working adult.
             </p>
           </div>
@@ -363,7 +364,7 @@ const Housea: NextPage = () => {
               />
             </div>
             <div className="mt-4 px-5">
-              <p className="body-2 text-center text-white">
+              <p className="body-2 text-center text-slate-600">
                 Goal: A easy way to decide and book a bus to go to nearby bus stops and Places.
               </p>
             </div>
@@ -381,10 +382,11 @@ const Housea: NextPage = () => {
                 <Headline2>Starting the design</Headline2>
               </div>
               <div className="lg:mx-auto lg:max-w-[760px] lg:text-center">
-                <p className="body-1 text-white">
-                  Before getting into the mockups and high-fidelity prototypes, 
-                  I wanted to get an idea of what the 
-                  core parts of the application would look like by creating sitemaps and wireframes.
+                <p className="body-1 text-slate-600">
+                  Before getting into the mockups and high-fidelity prototypes,
+                  I wanted to get an idea of what the core parts of the
+                  application would look like by creating sitemaps and
+                  wireframes.
                 </p>
               </div>
             </div>
@@ -426,7 +428,7 @@ const Housea: NextPage = () => {
                     />
                   </div>
                   <div className="mt-4 px-5">
-                    <p className="body-2 mx-auto max-w-2xl text-center text-white">
+                    <p className="body-2 mx-auto max-w-2xl text-center text-slate-600">
                       Using the completed set of digital wireframes, I also
                       created a low-fidelity prototype. So the prototype could
                       be used in a usability study to test the core part of the
@@ -442,7 +444,7 @@ const Housea: NextPage = () => {
               <div className="lg:text-center">
                 <Headline3>Usability study</Headline3>
                 <div className="lg:mx-auto lg:max-w-[760px] lg:text-center">
-                  <p className="body-1 mb-8 text-white">
+                  <p className="body-1 mb-8 text-slate-600">
                     I conducted two rounds of usability studies. Findings from
                     the first study helped guide the designs from wireframes to
                     mockups. The second study used a high-fidelity prototype and
@@ -451,13 +453,13 @@ const Housea: NextPage = () => {
                 </div>
               </div>
               <div className="space-y-4 lg:flex lg:justify-center lg:space-y-0 lg:space-x-4">
-                <div className="max-w-md rounded-lg border border-slate-300 bg-[#2E323B] p-4">
+                <div className="max-w-md rounded-lg border border-slate-300 bg-[#fafaf9] p-4">
                   <div className="lg:text-center">
                     <Headline4>Round 1 Improvement</Headline4>
                   </div>
                   <ul className="list-disc pl-4">
                     <li>
-                      <p className="body-1 text-white">
+                      <p className="body-1 text-slate-600">
                         Add a button in Mobile&apos;s Bottom bar so that users
                         can easily view the price details of the apartment at
                         any time (Dialog).
@@ -465,19 +467,19 @@ const Housea: NextPage = () => {
                     </li>
                   </ul>
                 </div>
-                <div className="max-w-md rounded-lg border border-slate-300 bg-[#2E323B] p-4">
+                <div className="max-w-md rounded-lg border border-slate-300 bg-[#fafaf9] p-4">
                   <div className="lg:text-center">
                     <Headline4>Round 2 Improvement</Headline4>
                   </div>
                   <ul className="list-disc pl-4">
                     <li>
-                      <p className="body-1 text-white">
+                      <p className="body-1 text-slate-600">
                         Add the search feature to the Top bar to make it easy
                         for users to start searching from any page.
                       </p>
                     </li>
                     <li>
-                      <p className="body-1 text-white">
+                      <p className="body-1 text-slate-600">
                         When the user clicks on the &quotlike button&quot, the
                         icon style changes from an outline to a fill, making the
                         feedback clearer and easier to understand.
@@ -576,7 +578,7 @@ const Housea: NextPage = () => {
           </div>
         </div>
       </section>
-      <section className="bg-[#1F2229] py-12 px-5 lg:py-24 lg:px-0">
+      <section className="bg-[#FAFAF9] py-12 px-5 lg:py-24 lg:px-0">
         <div className="mx-auto max-w-[1200px]">
           <div className="relative w-full overflow-hidden border border-slate-300 shadow">
             <Image
@@ -642,7 +644,7 @@ const Housea: NextPage = () => {
           </div>
         </div>
       </section>
-      <section className="bg-[#1F2229] py-12 px-5 lg:py-24 lg:px-0">
+      <section className="bg-[#FAFAF9] py-12 px-5 lg:py-24 lg:px-0">
         <div className="mx-auto max-w-[1200px]">
           <div className="relative w-full overflow-hidden border border-slate-300 shadow">
             <Image
@@ -675,12 +677,12 @@ const Housea: NextPage = () => {
           </div>
         </div>
       </section>
-      <section className="bg-[#1F2229] py-12 lg:py-24">
+      <section className="bg-[#FAFAF9] py-12 lg:py-24">
         <div className="mx-auto max-w-[1040px] px-5 lg:px-0">
           <div className="lg:flex lg:items-center lg:justify-between">
             <div className="lg:max-w-[400px]">
               <Headline3>Prototype</Headline3>
-              <p className="body-1 mb-4 text-white">
+              <p className="body-1 mb-4 text-slate-600">
                 I created mockups in Figma and then converted them to a
                 high-fidelity prototype.
               </p>
@@ -773,7 +775,7 @@ const Housea: NextPage = () => {
             <div className="space-y-4">
               <div className="lg:mx-auto lg:max-w-[760px]">
                 <Headline4>Focusing on the interview itself</Headline4>
-                <p className="body-1 mb-4 text-white">
+                <p className="body-1 mb-4 text-slate-600">
                   In this user interview, I avoided multitasking as much as
                   possible, such as taking many notes during the interview.
                   Instead, I focused on the interviewees, paying attention to
@@ -787,7 +789,7 @@ const Housea: NextPage = () => {
               </div>
               <div className="lg:mx-auto lg:max-w-[760px]">
                 <Headline4>Start with the core part of the product</Headline4>
-                <p className="body-1 mb-4 text-white">
+                <p className="body-1 mb-4 text-slate-600">
                   In this design, I first completed the part from searching for
                   apartments to booking agents, the most core part for Housea.
                   And use the prototype for testing and making improvements.
@@ -801,7 +803,7 @@ const Housea: NextPage = () => {
                   Structuring components to handle states, themes, and
                   variations
                 </Headline4>
-                <p className="body-1 mb-4 text-white">
+                <p className="body-1 mb-4 text-slate-600">
                   I created Mockups and Prototypes using Figma. While creating
                   components, I learned to use the auto layout and variant
                   features. They improved the overall design uniformity and made
@@ -819,7 +821,7 @@ const Housea: NextPage = () => {
             <div className="space-y-4">
               <div className="lg:mx-auto lg:max-w-[760px]">
                 <Headline4>Taking more stakeholders into account</Headline4>
-                <p className="body-1 mb-4 text-white">
+                <p className="body-1 mb-4 text-slate-600">
                   Include more stakeholders in the scope of the user research,
                   such as agency staff, and develop additional types of user
                   personas. Making Housea not only solves the problem of finding
@@ -831,6 +833,7 @@ const Housea: NextPage = () => {
           </div>
         </div>
       </section>
+      <Footer />
     </div>
   );
 };

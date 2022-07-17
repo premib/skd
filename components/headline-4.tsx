@@ -4,7 +4,7 @@ interface Headline4Props {
 
 const Headline4: React.FC<Headline4Props> = ({ children }) => {
   return (
-    <h4 className="pb-2 text-xl font-extrabold leading-8 tracking-[0.01em] text-white">
+    <h4 className="pb-2 text-xl font-extrabold leading-8 tracking-[0.01em] text-slate-900">
       {children}
     </h4>
   );
