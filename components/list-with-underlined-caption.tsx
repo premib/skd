@@ -20,7 +20,7 @@ const ListWithUnderlinedCaption: React.FC<ListWithUnderlinedCaptionProps> = ({
             <div key={index} className="mb-6 mr-8">
               <Headline4>{skill.skillTitle}</Headline4>
               <div className="ml-5">
-                <ul className="text-white">
+                <ul className="text-slate-600 list-disc list-outside marker:text-slate-600">
                   {skill.skills.map((skillString: string, i: number) => {
                     return <li key={i}>{skillString}</li>;
                   })}

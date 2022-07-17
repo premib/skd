@@ -5,15 +5,17 @@ import Image from "next/image";
 import Card from "../components/card";
 import Footer from "../components/footer";
 import Header from "../components/header";
-import caffyCoverImg from "../public/images/caffy-cover.jpg";
-import caffyCoverImgSmall from "../public/images/caffy-cover-small.jpg";
-import wipCoverImg from "../public/images/wip-cover2.jpg";
-// import wipCoverImgSmall from "../public/images/wip-cover-small.jpg";
-import houseaCoverImg from "../public/images/housea-cover.jpg";
-import houseaCoverImgSmall from "../public/images/housea-cover-small.jpg";
-import circleCoverImg from "../public/images/circle-cover.png";
-import circleCoverImgSmall from "../public/images/circle-cover-small.png";
-// import homeHero from "../public/images/main-hero.png"
+import caffyCoverImg from "/public/images/caffy-cover.jpg";
+import caffyCoverImgSmall from "/public/images/caffy-cover-small.jpg";
+import wipCoverImg from "/public/images/wip-cover2.jpg";
+// import wipCoverImgSmall from "/public/images/wip-cover-small.jpg";
+// import houseaCoverImg from "/public/images/housea-cover.jpg";
+// import houseaCoverImgSmall from "/public/images/housea-cover-small.jpg";
+import nammaBusCardImg from "/public/images/nammabus_card.jpg"
+import smartHomeCardImg from "/public/images/smarthome_card.jpg"
+// import circleCoverImg from "/public/images/circle-cover.png";
+// import circleCoverImgSmall from "/public/images/circle-cover-small.png";
+// import homeHero from "/public/images/main-hero.png"
 import Headline2 from "../components/headline-2";
 
 const Home: NextPage = () => {
@@ -44,20 +46,18 @@ const Home: NextPage = () => {
           <Headline2>Recent Works</Headline2>
         </div>
         <Card
-          title="Housea"
-          media={houseaCoverImg}
-          mediaSmall={houseaCoverImgSmall}
-          description="Design a website for finding rental apartments"
+          title="Namma Bus"
+          media={nammaBusCardImg}
+          mediaSmall={nammaBusCardImg}
+          description="An App that tells you Local bus Routes and Timings"
           link="/housea"
           priority={true}
-          darkText={true}
         />
         <Card
-          title="Circle"
-          media={circleCoverImg}
-          mediaSmall={circleCoverImgSmall}
-          description="Design a tool to help international students share household
-          items"
+          title="Smart Home"
+          media={smartHomeCardImg}
+          mediaSmall={smartHomeCardImg}
+          description="An App that tells you Local bus Routes and Timings"
           link="/circle"
           priority={true}
         />

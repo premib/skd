@@ -176,7 +176,7 @@ const About: NextPage = () => {
             </div>
             <div className="lg:w-[450px] w-full float-right">
               <Headline2>Contact</Headline2>
-              <p className="body-1 mb-6 text-white">
+              <p className="body-1 mb-6 text-slate-600">
                 Whether you have a question or just want to say hi,{" "}
                 <br className="hidden lg:block" />I will try my best to get back to
                 you!

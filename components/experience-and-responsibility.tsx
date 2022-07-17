@@ -24,13 +24,13 @@ const ExperienceAndResponsibility: React.FC<ExpAndRespProp> = ({
                <Headline4>
                     <span className='lg:text-[1.5rem]'>{companyName}</span> &nbsp; <span className='text-[.750rem] font-light'>{time}</span> <br/>
                </Headline4>
-               <p className='text-white text-lg text-bold mb-3 -mt-2'>{role}</p>
-               <p className='text-white text-md text-justify'>
+               <p className='text-slate-900 text-lg text-bold mb-3 -mt-2'>{role}</p>
+               <p className='text-slate-600 text-md text-justify'>
                     {information}
                </p>
-               <p className='text-white text-lg text-bold mb-3 mt-6'>Responsibility</p>
+               <p className='text-slate-900 text-lg text-bold mb-3 mt-6'>Responsibility</p>
                <div className='ml-5'>
-                    <ul className='text-white text-md list-disc list-outside marker:text-white'>
+                    <ul className='text-slate-600 text-md list-disc list-outside marker:text-slate-600'>
                          {
                               responsibilities.map((list: string, i: number) => {
                                    return <li key={i} className='my-1'>{list}</li>
