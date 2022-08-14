@@ -1,6 +1,6 @@
 import Image from 'next/image'
-import gradCap from '../public/images/grad-cap.png'
-import calendar from '../public/images/calendar.png'
+import gradCap from '/public/images/grad-cap.png'
+import calendar from '/public/images/calendar.png'
 import Headline3 from './headline-3'
 import Headline4 from './headline-4'
 

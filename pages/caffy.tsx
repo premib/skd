@@ -13,24 +13,24 @@ import Headline3 from "../components/headline-3";
 import Headline4 from "../components/headline-4";
 
 // Image resources
-import overViewImg from "../public/images/caffy-overview.jpg";
-import overViewLargeImg from "../public/images/caffy-overview-large.jpg";
-import personaLargeImg from "../public/images/caffy-persona.png";
-import personaProfileImg from "../public/images/caffy-persona-profile.png";
-import personaCommentImg from "../public/images/caffy-persona-quotes.png";
-import personaGoalsImg from "../public/images/caffy-persona-goals.png";
-import personaFrustrationsImg from "../public/images/caffy-persona-frustrations.png";
-import personaBioImg from "../public/images/caffy-persona-bio.png";
-import userJourneyMapImg from "../public/images/caffy-user-journey-map.png";
-import userFlowImg from "../public/images/caffy-user-flow.png";
-import paperWireframesImg from "../public/images/caffy-paper-wireframes.jpg";
-import digitalWireframesImg from "../public/images/caffy-digital-wireframes.png";
-import lowFiPrototypeImg from "../public/images/caffy-low-fi-prototype.png";
-import highFiPrototypeImg from "../public/images/caffy-high-fi-prototype.png";
-import styleGuideImg from "../public/images/caffy-style-guide.png";
-import styleGuideColumnImg from "../public/images/caffy-style-guide-column.png";
-import muckupsImg1 from "../public/images/caffy-muckups-1.png";
-import muckupsImg2 from "../public/images/caffy-muckups-2.png";
+import overViewImg from "/public/images/caffy-overview.jpg";
+import overViewLargeImg from "/public/images/caffy-overview-large.jpg";
+import personaLargeImg from "/public/images/caffy-persona.png";
+import personaProfileImg from "/public/images/caffy-persona-profile.png";
+import personaCommentImg from "/public/images/caffy-persona-quotes.png";
+import personaGoalsImg from "/public/images/caffy-persona-goals.png";
+import personaFrustrationsImg from "/public/images/caffy-persona-frustrations.png";
+import personaBioImg from "/public/images/caffy-persona-bio.png";
+import userJourneyMapImg from "/public/images/caffy-user-journey-map.png";
+import userFlowImg from "/public/images/caffy-user-flow.png";
+import paperWireframesImg from "/public/images/caffy-paper-wireframes.jpg";
+import digitalWireframesImg from "/public/images/caffy-digital-wireframes.png";
+import lowFiPrototypeImg from "/public/images/caffy-low-fi-prototype.png";
+import highFiPrototypeImg from "/public/images/caffy-high-fi-prototype.png";
+import styleGuideImg from "/public/images/caffy-style-guide.png";
+import styleGuideColumnImg from "/public/images/caffy-style-guide-column.png";
+import muckupsImg1 from "/public/images/caffy-muckups-1.png";
+import muckupsImg2 from "/public/images/caffy-muckups-2.png";
 import Headline1 from "../components/headline-1";
 
 const Caffy: NextPage = () => {

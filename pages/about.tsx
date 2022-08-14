@@ -10,8 +10,8 @@ import Headline2 from "../components/headline-2";
 import Headline4 from "../components/headline-4";
 import EducationInfo from "../components/education-info";
 import SocialLinks from "../components/social-links";
-import profileImgLarge from "../public/images/profile.jpg";
-import profileImg from "../public/images/sk.jpg";
+import profileImgLarge from "/public/images/profile.jpg";
+import profileImg from "/public/images/sk.jpg";
 import SkillInfo from "../components/skill-info";
 import ExperienceAndResponsibility from "../components/experience-and-responsibility";
 
@@ -114,7 +114,7 @@ const About: NextPage = () => {
             </div>
             <div className="relative block max-w-lg overflow-hidden rounded-lg drop-shadow lg:hidden">
               <Image
-                src={profileImg}
+                src="/images/sk.jpg"
                 alt="My profile image"
                 layout="responsive"
                 objectFit="cover"
@@ -123,7 +123,7 @@ const About: NextPage = () => {
             </div>
             <div className="relative hidden w-1/2 max-w-[360px] overflow-hidden rounded-lg drop-shadow lg:block">
               <Image
-                src={profileImg}
+                src="/images/sk.jpg"
                 alt="My profile image"
                 layout="responsive"
                 objectFit="cover"

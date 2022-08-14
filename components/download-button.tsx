@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image"
 
-import downloadImage from "../public/images/download.svg"
+import downloadImage from "/public/images/download.svg"
 
 interface DownloadButtonProps {
   textLabel: string;

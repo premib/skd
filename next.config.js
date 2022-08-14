@@ -1,9 +1,12 @@
 module.exports = {
   reactStrictMode: true,
+  serverRuntimeConfig: {
+    PROJECT_ROOT: __dirname
+  },
   images: {
     loader: "akamai",
-    path: ""
+    path: "",
   },
+  assetPrefix: "/skd",
   basePath: "/skd",
-  assetPrefix: "/skd"
-}
+};

@@ -10,52 +10,52 @@ import Headline4 from "../components/headline-4";
 import Anchor from "../components/anchor";
 
 // Images used in this page
-import overviewImage from "../public/images/housea-overview.png";
-import overviewSmallImage from "../public/images/housea-overview-s.jpg";
-import emap1 from "../public/images/housea-emap-1.png";
-import emap2 from "../public/images/housea-emap-2.png";
-import persona1 from "../public/images/housea-persona-1.png";
-import persona2 from "../public/images/housea-persona-2.png";
-import userJourneyMap from "../public/images/housea-ujmap.png";
-import sitemapImage from "../public/images/housea-sitemap.png";
-import wireframeImage from "../public/images/housea-wireframes.png";
-import lowfiPrototypeImage from "../public/images/housea-lowfi-prototype.png";
-import mockupsTypographyImage from "../public/images/housea-mockups-typography.png";
-import mockupsColorsImage from "../public/images/housea-mockups-colors.png";
-import prototypeImage from "../public/images/housea-figma-prototype.jpg";
+import overviewImage from "/public/images/housea-overview.png";
+import overviewSmallImage from "/public/images/housea-overview-s.jpg";
+import emap1 from "/public/images/housea-emap-1.png";
+import emap2 from "/public/images/housea-emap-2.png";
+import persona1 from "/public/images/housea-persona-1.png";
+import persona2 from "/public/images/housea-persona-2.png";
+import userJourneyMap from "/public/images/housea-ujmap.png";
+import sitemapImage from "/public/images/housea-sitemap.png";
+import wireframeImage from "/public/images/housea-wireframes.png";
+import lowfiPrototypeImage from "/public/images/housea-lowfi-prototype.png";
+import mockupsTypographyImage from "/public/images/housea-mockups-typography.png";
+import mockupsColorsImage from "/public/images/housea-mockups-colors.png";
+import prototypeImage from "/public/images/housea-figma-prototype.jpg";
 
 // Mockups - large screens
-import mockupsImg1 from "../public/images/housea-mockups-1.jpg";
-import mockupsImg2 from "../public/images/housea-mockups-2.jpg";
-import mockupsImg3 from "../public/images/housea-mockups-3.jpg";
-import mockupsImg4 from "../public/images/housea-mockups-4.jpg";
-import mockupsImg5 from "../public/images/housea-mockups-5.jpg";
-import mockupsImg6 from "../public/images/housea-mockups-6.jpg";
-import mockupsImg7 from "../public/images/housea-mockups-7.jpg";
-import mockupsImg8 from "../public/images/housea-mockups-8.jpg";
-import mockupsImg9 from "../public/images/housea-mockups-9.jpg";
-import mockupsImg10 from "../public/images/housea-mockups-10.jpg";
-import mockupsImg11 from "../public/images/housea-mockups-11.jpg";
+import mockupsImg1 from "/public/images/housea-mockups-1.jpg";
+import mockupsImg2 from "/public/images/housea-mockups-2.jpg";
+import mockupsImg3 from "/public/images/housea-mockups-3.jpg";
+import mockupsImg4 from "/public/images/housea-mockups-4.jpg";
+import mockupsImg5 from "/public/images/housea-mockups-5.jpg";
+import mockupsImg6 from "/public/images/housea-mockups-6.jpg";
+import mockupsImg7 from "/public/images/housea-mockups-7.jpg";
+import mockupsImg8 from "/public/images/housea-mockups-8.jpg";
+import mockupsImg9 from "/public/images/housea-mockups-9.jpg";
+import mockupsImg10 from "/public/images/housea-mockups-10.jpg";
+import mockupsImg11 from "/public/images/housea-mockups-11.jpg";
 
 // Mockups - small screens
-import mockupsImgS1 from "../public/images/housea-mockups-s-1.jpg";
-import mockupsImgS2 from "../public/images/housea-mockups-s-2.jpg";
-import mockupsImgS3 from "../public/images/housea-mockups-s-3.jpg";
-import mockupsImgS4 from "../public/images/housea-mockups-s-4.jpg";
-import mockupsImgS5 from "../public/images/housea-mockups-s-5.jpg";
-import mockupsImgS6 from "../public/images/housea-mockups-s-6.jpg";
-import mockupsImgS7 from "../public/images/housea-mockups-s-7.jpg";
-import mockupsImgS8 from "../public/images/housea-mockups-s-8.jpg";
-import mockupsImgS9 from "../public/images/housea-mockups-s-9.jpg";
-import mockupsImgS10 from "../public/images/housea-mockups-s-10.jpg";
-import mockupsImgS11 from "../public/images/housea-mockups-s-11.jpg";
-import mockupsImgS12 from "../public/images/housea-mockups-s-12.jpg";
-import mockupsImgS13 from "../public/images/housea-mockups-s-13.jpg";
-import mockupsImgS14 from "../public/images/housea-mockups-s-14.jpg";
-import mockupsImgS15 from "../public/images/housea-mockups-s-15.jpg";
-import mockupsImgS16 from "../public/images/housea-mockups-s-16.jpg";
-import mockupsImgS17 from "../public/images/housea-mockups-s-17.jpg";
-import mockupsImgS18 from "../public/images/housea-mockups-s-18.jpg";
+import mockupsImgS1 from "/public/images/housea-mockups-s-1.jpg";
+import mockupsImgS2 from "/public/images/housea-mockups-s-2.jpg";
+import mockupsImgS3 from "/public/images/housea-mockups-s-3.jpg";
+import mockupsImgS4 from "/public/images/housea-mockups-s-4.jpg";
+import mockupsImgS5 from "/public/images/housea-mockups-s-5.jpg";
+import mockupsImgS6 from "/public/images/housea-mockups-s-6.jpg";
+import mockupsImgS7 from "/public/images/housea-mockups-s-7.jpg";
+import mockupsImgS8 from "/public/images/housea-mockups-s-8.jpg";
+import mockupsImgS9 from "/public/images/housea-mockups-s-9.jpg";
+import mockupsImgS10 from "/public/images/housea-mockups-s-10.jpg";
+import mockupsImgS11 from "/public/images/housea-mockups-s-11.jpg";
+import mockupsImgS12 from "/public/images/housea-mockups-s-12.jpg";
+import mockupsImgS13 from "/public/images/housea-mockups-s-13.jpg";
+import mockupsImgS14 from "/public/images/housea-mockups-s-14.jpg";
+import mockupsImgS15 from "/public/images/housea-mockups-s-15.jpg";
+import mockupsImgS16 from "/public/images/housea-mockups-s-16.jpg";
+import mockupsImgS17 from "/public/images/housea-mockups-s-17.jpg";
+import mockupsImgS18 from "/public/images/housea-mockups-s-18.jpg";
 
 const mockupsSmallImgs = [
   mockupsImgS1,

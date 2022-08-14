@@ -13,32 +13,32 @@ import Headline2 from "../components/headline-2";
 import Headline3 from "../components/headline-3";
 import Headline4 from "../components/headline-4";
 
-import overViewImg from "../public/images/circle-overview.png";
-import overViewSmallImg from "../public/images/circle-overview-small.png";
-import personaImg1 from "../public/images/circle-persona-1.png";
-import personaImg2 from "../public/images/circle-persona-2.png";
-import ideationImg1 from "../public/images/circle-ideation-1.jpg";
-import ideationImg2 from "../public/images/circle-ideation-2.jpg";
-import ideationImg3 from "../public/images/circle-ideation-3.jpg";
-import wireframesImg from "../public/images/circle-wireframes.png";
-import fundationsImg from "../public/images/circle-fundations.png";
-import prototypeImg from "../public/images/circle-prototype.png";
+import overViewImg from "/public/images/circle-overview.png";
+import overViewSmallImg from "/public/images/circle-overview-small.png";
+import personaImg1 from "/public/images/circle-persona-1.png";
+import personaImg2 from "/public/images/circle-persona-2.png";
+import ideationImg1 from "/public/images/circle-ideation-1.jpg";
+import ideationImg2 from "/public/images/circle-ideation-2.jpg";
+import ideationImg3 from "/public/images/circle-ideation-3.jpg";
+import wireframesImg from "/public/images/circle-wireframes.png";
+import fundationsImg from "/public/images/circle-fundations.png";
+import prototypeImg from "/public/images/circle-prototype.png";
 
-import mockupImg1 from "../public/images/circle-mockup-1.png";
-import mockupImg2 from "../public/images/circle-mockup-2.png";
-import mockupImg3 from "../public/images/circle-mockup-3.png";
-import mockupImg4 from "../public/images/circle-mockup-4.png";
-import mockupImg5 from "../public/images/circle-mockup-5.png";
-import mockupImg6 from "../public/images/circle-mockup-6.png";
-import mockupImg7 from "../public/images/circle-mockup-7.png";
-import mockupImg8 from "../public/images/circle-mockup-8.png";
-import mockupImg9 from "../public/images/circle-mockup-9.png";
-import mockupImg10 from "../public/images/circle-mockup-10.png";
-import mockupImg11 from "../public/images/circle-mockup-11.png";
-import mockupImg12 from "../public/images/circle-mockup-12.png";
-import mockupImg13 from "../public/images/circle-mockup-13.png";
-import mockupImg14 from "../public/images/circle-mockup-14.png";
-import mockupImg15 from "../public/images/circle-mockup-15.png";
+import mockupImg1 from "/public/images/circle-mockup-1.png";
+import mockupImg2 from "/public/images/circle-mockup-2.png";
+import mockupImg3 from "/public/images/circle-mockup-3.png";
+import mockupImg4 from "/public/images/circle-mockup-4.png";
+import mockupImg5 from "/public/images/circle-mockup-5.png";
+import mockupImg6 from "/public/images/circle-mockup-6.png";
+import mockupImg7 from "/public/images/circle-mockup-7.png";
+import mockupImg8 from "/public/images/circle-mockup-8.png";
+import mockupImg9 from "/public/images/circle-mockup-9.png";
+import mockupImg10 from "/public/images/circle-mockup-10.png";
+import mockupImg11 from "/public/images/circle-mockup-11.png";
+import mockupImg12 from "/public/images/circle-mockup-12.png";
+import mockupImg13 from "/public/images/circle-mockup-13.png";
+import mockupImg14 from "/public/images/circle-mockup-14.png";
+import mockupImg15 from "/public/images/circle-mockup-15.png";
 
 const mockupImgs = [
   mockupImg1,
